@@ -3821,15 +3821,6 @@
 			#wrapper {
 				padding-top: 2.75em;
 			}
-			.swiper-slide:nth-child(2n) {
-				width: 80%;
-			}
-			.swiper-slide:nth-child(3n) {
-				width: 80%;
-			}
-			.swiper-slide:nth-child(4n) {
-				width: 80%;
-			}
 
 		}
 
@@ -4041,3 +4032,16 @@
     .swiper-slide:nth-child(3n) {
         width: 40%;
     }
+			@media screen and (max-width: 736px) {
+
+			.swiper-slide:nth-child(2n) {
+				width: 80%;
+			}
+			.swiper-slide:nth-child(3n) {
+				width: 80%;
+			}
+			.swiper-slide:nth-child(4n) {
+				width: 80%;
+			}
+
+		}
