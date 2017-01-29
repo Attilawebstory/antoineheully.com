@@ -4042,7 +4042,9 @@
         width: 40%;
     }
 			@media screen and (max-width: 736px) {
-
+			.swiper-slide {
+				width: 80%;
+			}
 			.swiper-slide:nth-child(2n) {
 				width: 80%;
 			}
