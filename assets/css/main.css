@@ -4041,6 +4041,7 @@
     .swiper-slide:nth-child(3n) {
         width: 40%;
     }
+	/*add mobile grrr friendly*/
 			@media screen and (max-width: 736px) {
 			.swiper-slide {
 				width: 80%;
